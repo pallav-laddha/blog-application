@@ -20,4 +20,5 @@
     $("#Reservebutton").click(function(){
     $("#ReserveModal").modal('toggle')});
     $("#Loginbutton").click(function(){
+        console.log("hellp")
     $("#loginModal").modal('toggle')});
