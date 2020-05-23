@@ -1,7 +1,7 @@
     
     
         $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
+            $("#mycarousel").carousel( { interval: 3000 } );
             
            $("#carouselButton").click(function(){
                 if ($("#carouselButton").children("span").hasClass('fa-pause')) {

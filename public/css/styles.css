@@ -13,10 +13,11 @@
   margin: 0px auto;
   padding: 20px 0px; }
 
+  
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background: #303030;
   color: floralwhite; }
 
 address {
@@ -26,10 +27,11 @@ address {
 
 body {
   padding: 50px 0px 0px 0px;
+    
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #267349; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -46,6 +48,12 @@ body {
       top: 0;
       left: 0;
       min-height: 300px; }
+      .carousel .carousel-item h2{
+        color: #0f0f0f
+      }
+      .carousel .carousel-item p{
+        color: #0f0f0f
+      }
 
 #carouselButton {
   right: 0px;
@@ -60,3 +68,9 @@ body {
 
 .modal-body {
   background: #D1C4E9; }
+
+  .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
